@@ -1,0 +1,29 @@
+22:43:04.863 +05:00 [Information] [Microsoft.Hosting.Lifetime] Now listening on: "https://localhost:7088"
+22:43:04.948 +05:00 [Information] [Microsoft.Hosting.Lifetime] Now listening on: "http://localhost:5088"
+22:43:04.993 +05:00 [Information] [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+22:43:05.010 +05:00 [Information] [Microsoft.Hosting.Lifetime] Hosting environment: "Development"
+22:43:05.014 +05:00 [Information] [Microsoft.Hosting.Lifetime] Content root path: "C:\Users\Admin\Desktop\Logging_Serilog\Logging_Serilog\"
+22:43:07.040 +05:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7088/swagger/index.html - -
+22:43:08.094 +05:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7088/swagger/index.html - - - 200 - text/html;charset=utf-8 1065.5880ms
+22:43:08.220 +05:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - -
+22:43:08.434 +05:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - - - 200 11949 application/javascript;+charset=utf-8 213.8724ms
+22:43:08.460 +05:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - -
+22:43:08.464 +05:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - - - 200 11949 application/javascript;+charset=utf-8 3.9500ms
+22:43:09.285 +05:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - -
+22:43:09.638 +05:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 345.6654ms
+22:43:19.475 +05:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7088/api/WeatherForecast/Divide?a=55&b=0 - -
+22:43:19.504 +05:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint '"Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)"'
+22:43:19.539 +05:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with "{action = \"Divide\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Decimal Divide(System.Decimal, System.Decimal)" on controller "Logging_Serilog.Controllers.WeatherForecastController" ("Logging_Serilog").
+22:43:19.809 +05:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executing action method "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)" - Validation state: Valid
+22:43:19.948 +05:00 [Information] [Logging_Serilog.Controllers.WeatherForecastController] Error in Divide Method - Value of a is 55
+22:43:19.951 +05:00 [Information] [Logging_Serilog.Controllers.WeatherForecastController] Error in Divide Method - Value of b is 0
+22:43:19.953 +05:00 [Error] [Logging_Serilog.Controllers.WeatherForecastController] Error in Divide Method
+System.DivideByZeroException: Attempted to divide by zero.
+   at System.Decimal.DecCalc.VarDecDiv(DecCalc& d1, DecCalc& d2)
+   at System.Decimal.op_Division(Decimal d1, Decimal d2)
+   at Logging_Serilog.Controllers.WeatherForecastController.Divide(Decimal a, Decimal b) in C:\Users\Admin\Desktop\Logging_Serilog\Logging_Serilog\Controllers\WeatherForecastController.cs:line 27
+22:43:20.043 +05:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action method "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 214.5213ms.
+22:43:20.062 +05:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] Executing "ObjectResult", writing value of type '"System.Decimal"'.
+22:43:20.084 +05:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)" in 525.9979ms
+22:43:20.087 +05:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint '"Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)"'
+22:43:20.089 +05:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7088/api/WeatherForecast/Divide?a=55&b=0 - - - 200 - application/json;+charset=utf-8 614.0054ms

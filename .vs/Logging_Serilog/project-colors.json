@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6f58fea7-9c2a-4a4c-ba82-72285d490e45": {
+      "ProjectGuid": "6f58fea7-9c2a-4a4c-ba82-72285d490e45",
+      "DisplayName": "Logging_Serilog",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

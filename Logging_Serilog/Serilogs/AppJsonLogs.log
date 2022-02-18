@@ -1,0 +1,2855 @@
+{
+  "Timestamp": "2022-02-17T22:24:07.7297050+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Now listening on: {address}",
+  "Properties": {
+    "address": "https://localhost:7088",
+    "EventId": {
+      "Id": 14,
+      "Name": "ListeningOnAddress"
+    },
+    "SourceContext": "Microsoft.Hosting.Lifetime"
+  }
+} {
+  "Timestamp": "2022-02-17T22:24:07.7840975+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Now listening on: {address}",
+  "Properties": {
+    "address": "http://localhost:5088",
+    "EventId": {
+      "Id": 14,
+      "Name": "ListeningOnAddress"
+    },
+    "SourceContext": "Microsoft.Hosting.Lifetime"
+  }
+} {
+  "Timestamp": "2022-02-17T22:24:07.7941522+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Application started. Press Ctrl+C to shut down.",
+  "Properties": { "SourceContext": "Microsoft.Hosting.Lifetime" }
+} {
+  "Timestamp": "2022-02-17T22:24:07.7985692+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Hosting environment: {envName}",
+  "Properties": {
+    "envName": "Development",
+    "SourceContext": "Microsoft.Hosting.Lifetime"
+  }
+} {
+  "Timestamp": "2022-02-17T22:24:07.8003232+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Content root path: {contentRoot}",
+  "Properties": {
+    "contentRoot": "C:\\Users\\Admin\\Desktop\\Logging_Serilog\\Logging_Serilog\\",
+    "SourceContext": "Microsoft.Hosting.Lifetime"
+  }
+} {
+  "Timestamp": "2022-02-17T22:24:09.4493966+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestStartingLog:l}",
+  "Properties": {
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "ContentType": null,
+    "ContentLength": null,
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/swagger/index.html",
+    "QueryString": "",
+    "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:7088/swagger/index.html - -",
+    "EventId": { "Id": 1 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI796V5DK7:00000001",
+    "RequestPath": "/swagger/index.html",
+    "ConnectionId": "0HMFI796V5DK7"
+  },
+  "Renderings": {
+    "HostingRequestStartingLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request starting HTTP/2 GET https://localhost:7088/swagger/index.html - -"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:24:10.2264430+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestFinishedLog:l}",
+  "Properties": {
+    "ElapsedMilliseconds": 786.2446,
+    "StatusCode": 200,
+    "ContentType": "text/html;charset=utf-8",
+    "ContentLength": null,
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/swagger/index.html",
+    "QueryString": "",
+    "HostingRequestFinishedLog": "Request finished HTTP/2 GET https://localhost:7088/swagger/index.html - - - 200 - text/html;charset=utf-8 786.2446ms",
+    "EventId": { "Id": 2 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI796V5DK7:00000001",
+    "RequestPath": "/swagger/index.html",
+    "ConnectionId": "0HMFI796V5DK7"
+  },
+  "Renderings": {
+    "HostingRequestFinishedLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request finished HTTP/2 GET https://localhost:7088/swagger/index.html - - - 200 - text/html;charset=utf-8 786.2446ms"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:24:10.4449833+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestStartingLog:l}",
+  "Properties": {
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "ContentType": null,
+    "ContentLength": null,
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/_framework/aspnetcore-browser-refresh.js",
+    "QueryString": "",
+    "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - -",
+    "EventId": { "Id": 1 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI796V5DK7:00000003",
+    "RequestPath": "/_framework/aspnetcore-browser-refresh.js",
+    "ConnectionId": "0HMFI796V5DK7"
+  },
+  "Renderings": {
+    "HostingRequestStartingLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request starting HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - -"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:24:10.4862727+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestFinishedLog:l}",
+  "Properties": {
+    "ElapsedMilliseconds": 41.2777,
+    "StatusCode": 200,
+    "ContentType": "application/javascript; charset=utf-8",
+    "ContentLength": 11949,
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/_framework/aspnetcore-browser-refresh.js",
+    "QueryString": "",
+    "HostingRequestFinishedLog": "Request finished HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - - - 200 11949 application/javascript;+charset=utf-8 41.2777ms",
+    "EventId": { "Id": 2 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI796V5DK7:00000003",
+    "RequestPath": "/_framework/aspnetcore-browser-refresh.js",
+    "ConnectionId": "0HMFI796V5DK7"
+  },
+  "Renderings": {
+    "HostingRequestFinishedLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request finished HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - - - 200 11949 application/javascript;+charset=utf-8 41.2777ms"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:24:10.5167428+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestStartingLog:l}",
+  "Properties": {
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "ContentType": null,
+    "ContentLength": null,
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/_framework/aspnetcore-browser-refresh.js",
+    "QueryString": "",
+    "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - -",
+    "EventId": { "Id": 1 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI796V5DK7:00000005",
+    "RequestPath": "/_framework/aspnetcore-browser-refresh.js",
+    "ConnectionId": "0HMFI796V5DK7"
+  },
+  "Renderings": {
+    "HostingRequestStartingLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request starting HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - -"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:24:10.5576699+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestFinishedLog:l}",
+  "Properties": {
+    "ElapsedMilliseconds": 40.9944,
+    "StatusCode": 200,
+    "ContentType": "application/javascript; charset=utf-8",
+    "ContentLength": 11949,
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/_framework/aspnetcore-browser-refresh.js",
+    "QueryString": "",
+    "HostingRequestFinishedLog": "Request finished HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - - - 200 11949 application/javascript;+charset=utf-8 40.9944ms",
+    "EventId": { "Id": 2 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI796V5DK7:00000005",
+    "RequestPath": "/_framework/aspnetcore-browser-refresh.js",
+    "ConnectionId": "0HMFI796V5DK7"
+  },
+  "Renderings": {
+    "HostingRequestFinishedLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request finished HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - - - 200 11949 application/javascript;+charset=utf-8 40.9944ms"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:24:11.3090539+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestStartingLog:l}",
+  "Properties": {
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "ContentType": null,
+    "ContentLength": null,
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/swagger/v1/swagger.json",
+    "QueryString": "",
+    "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - -",
+    "EventId": { "Id": 1 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI796V5DK7:00000007",
+    "RequestPath": "/swagger/v1/swagger.json",
+    "ConnectionId": "0HMFI796V5DK7"
+  },
+  "Renderings": {
+    "HostingRequestStartingLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request starting HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - -"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:24:11.6319610+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestFinishedLog:l}",
+  "Properties": {
+    "ElapsedMilliseconds": 322.8852,
+    "StatusCode": 200,
+    "ContentType": "application/json;charset=utf-8",
+    "ContentLength": null,
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/swagger/v1/swagger.json",
+    "QueryString": "",
+    "HostingRequestFinishedLog": "Request finished HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 322.8852ms",
+    "EventId": { "Id": 2 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI796V5DK7:00000007",
+    "RequestPath": "/swagger/v1/swagger.json",
+    "ConnectionId": "0HMFI796V5DK7"
+  },
+  "Renderings": {
+    "HostingRequestFinishedLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request finished HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 322.8852ms"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:24:32.9036209+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestStartingLog:l}",
+  "Properties": {
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "ContentType": null,
+    "ContentLength": null,
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/api/WeatherForecast/Divide",
+    "QueryString": "?a=24&b=4",
+    "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:7088/api/WeatherForecast/Divide?a=24&b=4 - -",
+    "EventId": { "Id": 1 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI796V5DK7:00000009",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI796V5DK7"
+  },
+  "Renderings": {
+    "HostingRequestStartingLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request starting HTTP/2 GET https://localhost:7088/api/WeatherForecast/Divide?a=24&b=4 - -"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:24:32.9433838+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executing endpoint '{EndpointName}'",
+  "Properties": {
+    "EndpointName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "EventId": { "Name": "ExecutingEndpoint" },
+    "SourceContext": "Microsoft.AspNetCore.Routing.EndpointMiddleware",
+    "RequestId": "0HMFI796V5DK7:00000009",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI796V5DK7"
+  }
+} {
+  "Timestamp": "2022-02-17T22:24:32.9808498+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Route matched with {RouteData}. Executing controller action with signature {MethodInfo} on controller {Controller} ({AssemblyName}).",
+  "Properties": {
+    "RouteData": "{action = \"Divide\", controller = \"WeatherForecast\"}",
+    "MethodInfo": "System.Decimal Divide(System.Decimal, System.Decimal)",
+    "Controller": "Logging_Serilog.Controllers.WeatherForecastController",
+    "AssemblyName": "Logging_Serilog",
+    "EventId": {
+      "Id": 3,
+      "Name": "ControllerActionExecuting"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker",
+    "ActionId": "41320e0f-f60f-4ff3-beba-f024178c8f77",
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "RequestId": "0HMFI796V5DK7:00000009",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI796V5DK7"
+  }
+} {
+  "Timestamp": "2022-02-17T22:24:33.2374460+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executing action method {ActionName} - Validation state: {ValidationState}",
+  "Properties": {
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "ValidationState": "Valid",
+    "EventId": {
+      "Id": 1,
+      "Name": "ActionMethodExecuting"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker",
+    "ActionId": "41320e0f-f60f-4ff3-beba-f024178c8f77",
+    "RequestId": "0HMFI796V5DK7:00000009",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI796V5DK7"
+  }
+} {
+  "Timestamp": "2022-02-17T22:24:33.2575318+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executed action method {ActionName}, returned result {ActionResult} in {ElapsedMilliseconds}ms.",
+  "Properties": {
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "ActionResult": "Microsoft.AspNetCore.Mvc.ObjectResult",
+    "ElapsedMilliseconds": 0.7777,
+    "EventId": {
+      "Id": 2,
+      "Name": "ActionMethodExecuted"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker",
+    "ActionId": "41320e0f-f60f-4ff3-beba-f024178c8f77",
+    "RequestId": "0HMFI796V5DK7:00000009",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI796V5DK7"
+  }
+} {
+  "Timestamp": "2022-02-17T22:24:33.2773663+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executing {ObjectResultType}, writing value of type '{Type}'.",
+  "Properties": {
+    "ObjectResultType": "ObjectResult",
+    "Type": "System.Decimal",
+    "EventId": {
+      "Id": 1,
+      "Name": "ObjectResultExecuting"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor",
+    "ActionId": "41320e0f-f60f-4ff3-beba-f024178c8f77",
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "RequestId": "0HMFI796V5DK7:00000009",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI796V5DK7"
+  }
+} {
+  "Timestamp": "2022-02-17T22:24:33.3035252+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executed action {ActionName} in {ElapsedMilliseconds}ms",
+  "Properties": {
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "ElapsedMilliseconds": 305.3674,
+    "EventId": {
+      "Id": 2,
+      "Name": "ActionExecuted"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker",
+    "RequestId": "0HMFI796V5DK7:00000009",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI796V5DK7"
+  }
+} {
+  "Timestamp": "2022-02-17T22:24:33.3061932+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executed endpoint '{EndpointName}'",
+  "Properties": {
+    "EndpointName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "EventId": {
+      "Id": 1,
+      "Name": "ExecutedEndpoint"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Routing.EndpointMiddleware",
+    "RequestId": "0HMFI796V5DK7:00000009",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI796V5DK7"
+  }
+} {
+  "Timestamp": "2022-02-17T22:24:33.3086374+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestFinishedLog:l}",
+  "Properties": {
+    "ElapsedMilliseconds": 405.4652,
+    "StatusCode": 200,
+    "ContentType": "application/json; charset=utf-8",
+    "ContentLength": null,
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/api/WeatherForecast/Divide",
+    "QueryString": "?a=24&b=4",
+    "HostingRequestFinishedLog": "Request finished HTTP/2 GET https://localhost:7088/api/WeatherForecast/Divide?a=24&b=4 - - - 200 - application/json;+charset=utf-8 405.4652ms",
+    "EventId": { "Id": 2 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI796V5DK7:00000009",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI796V5DK7"
+  },
+  "Renderings": {
+    "HostingRequestFinishedLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request finished HTTP/2 GET https://localhost:7088/api/WeatherForecast/Divide?a=24&b=4 - - - 200 - application/json;+charset=utf-8 405.4652ms"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:24:39.8904013+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestStartingLog:l}",
+  "Properties": {
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "ContentType": null,
+    "ContentLength": null,
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/api/WeatherForecast/Divide",
+    "QueryString": "?a=24&b=0",
+    "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:7088/api/WeatherForecast/Divide?a=24&b=0 - -",
+    "EventId": { "Id": 1 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI796V5DK7:0000000B",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI796V5DK7"
+  },
+  "Renderings": {
+    "HostingRequestStartingLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request starting HTTP/2 GET https://localhost:7088/api/WeatherForecast/Divide?a=24&b=0 - -"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:24:39.8956496+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executing endpoint '{EndpointName}'",
+  "Properties": {
+    "EndpointName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "EventId": { "Name": "ExecutingEndpoint" },
+    "SourceContext": "Microsoft.AspNetCore.Routing.EndpointMiddleware",
+    "RequestId": "0HMFI796V5DK7:0000000B",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI796V5DK7"
+  }
+} {
+  "Timestamp": "2022-02-17T22:24:39.8975106+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Route matched with {RouteData}. Executing controller action with signature {MethodInfo} on controller {Controller} ({AssemblyName}).",
+  "Properties": {
+    "RouteData": "{action = \"Divide\", controller = \"WeatherForecast\"}",
+    "MethodInfo": "System.Decimal Divide(System.Decimal, System.Decimal)",
+    "Controller": "Logging_Serilog.Controllers.WeatherForecastController",
+    "AssemblyName": "Logging_Serilog",
+    "EventId": {
+      "Id": 3,
+      "Name": "ControllerActionExecuting"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker",
+    "ActionId": "41320e0f-f60f-4ff3-beba-f024178c8f77",
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "RequestId": "0HMFI796V5DK7:0000000B",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI796V5DK7"
+  }
+} {
+  "Timestamp": "2022-02-17T22:24:39.9543391+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executing action method {ActionName} - Validation state: {ValidationState}",
+  "Properties": {
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "ValidationState": "Valid",
+    "EventId": {
+      "Id": 1,
+      "Name": "ActionMethodExecuting"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker",
+    "ActionId": "41320e0f-f60f-4ff3-beba-f024178c8f77",
+    "RequestId": "0HMFI796V5DK7:0000000B",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI796V5DK7"
+  }
+} {
+  "Timestamp": "2022-02-17T22:24:40.1068528+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Error in Divide Method - Value of a is {a}",
+  "Properties": {
+    "a": 24,
+    "SourceContext": "Logging_Serilog.Controllers.WeatherForecastController",
+    "ActionId": "41320e0f-f60f-4ff3-beba-f024178c8f77",
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "RequestId": "0HMFI796V5DK7:0000000B",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI796V5DK7"
+  }
+} {
+  "Timestamp": "2022-02-17T22:24:40.1103437+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Error in Divide Method - Value of b is {b}",
+  "Properties": {
+    "b": 0,
+    "SourceContext": "Logging_Serilog.Controllers.WeatherForecastController",
+    "ActionId": "41320e0f-f60f-4ff3-beba-f024178c8f77",
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "RequestId": "0HMFI796V5DK7:0000000B",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI796V5DK7"
+  }
+} {
+  "Timestamp": "2022-02-17T22:24:40.1125251+05:00",
+  "Level": "Error",
+  "MessageTemplate": "Error in Divide Method",
+  "Exception": "System.DivideByZeroException: Attempted to divide by zero.\r\n   at System.Decimal.DecCalc.VarDecDiv(DecCalc& d1, DecCalc& d2)\r\n   at System.Decimal.op_Division(Decimal d1, Decimal d2)\r\n   at Logging_Serilog.Controllers.WeatherForecastController.Divide(Decimal a, Decimal b) in C:\\Users\\Admin\\Desktop\\Logging_Serilog\\Logging_Serilog\\Controllers\\WeatherForecastController.cs:line 27",
+  "Properties": {
+    "SourceContext": "Logging_Serilog.Controllers.WeatherForecastController",
+    "ActionId": "41320e0f-f60f-4ff3-beba-f024178c8f77",
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "RequestId": "0HMFI796V5DK7:0000000B",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI796V5DK7"
+  }
+} {
+  "Timestamp": "2022-02-17T22:24:40.1855872+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executed action method {ActionName}, returned result {ActionResult} in {ElapsedMilliseconds}ms.",
+  "Properties": {
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "ActionResult": "Microsoft.AspNetCore.Mvc.ObjectResult",
+    "ElapsedMilliseconds": 228.6548,
+    "EventId": {
+      "Id": 2,
+      "Name": "ActionMethodExecuted"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker",
+    "ActionId": "41320e0f-f60f-4ff3-beba-f024178c8f77",
+    "RequestId": "0HMFI796V5DK7:0000000B",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI796V5DK7"
+  }
+} {
+  "Timestamp": "2022-02-17T22:24:40.1885951+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executing {ObjectResultType}, writing value of type '{Type}'.",
+  "Properties": {
+    "ObjectResultType": "ObjectResult",
+    "Type": "System.Decimal",
+    "EventId": {
+      "Id": 1,
+      "Name": "ObjectResultExecuting"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor",
+    "ActionId": "41320e0f-f60f-4ff3-beba-f024178c8f77",
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "RequestId": "0HMFI796V5DK7:0000000B",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI796V5DK7"
+  }
+} {
+  "Timestamp": "2022-02-17T22:24:40.1926838+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executed action {ActionName} in {ElapsedMilliseconds}ms",
+  "Properties": {
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "ElapsedMilliseconds": 290.3125,
+    "EventId": {
+      "Id": 2,
+      "Name": "ActionExecuted"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker",
+    "RequestId": "0HMFI796V5DK7:0000000B",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI796V5DK7"
+  }
+} {
+  "Timestamp": "2022-02-17T22:24:40.1983628+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executed endpoint '{EndpointName}'",
+  "Properties": {
+    "EndpointName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "EventId": {
+      "Id": 1,
+      "Name": "ExecutedEndpoint"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Routing.EndpointMiddleware",
+    "RequestId": "0HMFI796V5DK7:0000000B",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI796V5DK7"
+  }
+} {
+  "Timestamp": "2022-02-17T22:24:40.2002181+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestFinishedLog:l}",
+  "Properties": {
+    "ElapsedMilliseconds": 309.8004,
+    "StatusCode": 200,
+    "ContentType": "application/json; charset=utf-8",
+    "ContentLength": null,
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/api/WeatherForecast/Divide",
+    "QueryString": "?a=24&b=0",
+    "HostingRequestFinishedLog": "Request finished HTTP/2 GET https://localhost:7088/api/WeatherForecast/Divide?a=24&b=0 - - - 200 - application/json;+charset=utf-8 309.8004ms",
+    "EventId": { "Id": 2 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI796V5DK7:0000000B",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI796V5DK7"
+  },
+  "Renderings": {
+    "HostingRequestFinishedLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request finished HTTP/2 GET https://localhost:7088/api/WeatherForecast/Divide?a=24&b=0 - - - 200 - application/json;+charset=utf-8 309.8004ms"
+      }
+    ]
+  }
+} {
+
+  "Timestamp": "2022-02-17T22:34:59.6536497+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Now listening on: {address}",
+  "Properties": {
+    "address": "https://localhost:7088",
+    "EventId": {
+      "Id": 14,
+      "Name": "ListeningOnAddress"
+    },
+    "SourceContext": "Microsoft.Hosting.Lifetime",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 17492,
+    "ThreadId": 1
+  }
+} {
+  "Timestamp": "2022-02-17T22:34:59.8008303+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Now listening on: {address}",
+  "Properties": {
+    "address": "http://localhost:5088",
+    "EventId": {
+      "Id": 14,
+      "Name": "ListeningOnAddress"
+    },
+    "SourceContext": "Microsoft.Hosting.Lifetime",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 17492,
+    "ThreadId": 1
+  }
+} {
+  "Timestamp": "2022-02-17T22:34:59.8550942+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Application started. Press Ctrl+C to shut down.",
+  "Properties": {
+    "SourceContext": "Microsoft.Hosting.Lifetime",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 17492,
+    "ThreadId": 1
+  }
+} {
+  "Timestamp": "2022-02-17T22:34:59.8598916+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Hosting environment: {envName}",
+  "Properties": {
+    "envName": "Development",
+    "SourceContext": "Microsoft.Hosting.Lifetime",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 17492,
+    "ThreadId": 1
+  }
+} {
+  "Timestamp": "2022-02-17T22:34:59.8759728+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Content root path: {contentRoot}",
+  "Properties": {
+    "contentRoot": "C:\\Users\\Admin\\Desktop\\Logging_Serilog\\Logging_Serilog\\",
+    "SourceContext": "Microsoft.Hosting.Lifetime",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 17492,
+    "ThreadId": 1
+  }
+} {
+  "Timestamp": "2022-02-17T22:35:01.3438826+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestStartingLog:l}",
+  "Properties": {
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "ContentType": null,
+    "ContentLength": null,
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/swagger/index.html",
+    "QueryString": "",
+    "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:7088/swagger/index.html - -",
+    "EventId": { "Id": 1 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7F97MOOI:00000001",
+    "RequestPath": "/swagger/index.html",
+    "ConnectionId": "0HMFI7F97MOOI",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 17492,
+    "ThreadId": 13
+  },
+  "Renderings": {
+    "HostingRequestStartingLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request starting HTTP/2 GET https://localhost:7088/swagger/index.html - -"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:35:01.9824333+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestFinishedLog:l}",
+  "Properties": {
+    "ElapsedMilliseconds": 647.0084,
+    "StatusCode": 200,
+    "ContentType": "text/html;charset=utf-8",
+    "ContentLength": null,
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/swagger/index.html",
+    "QueryString": "",
+    "HostingRequestFinishedLog": "Request finished HTTP/2 GET https://localhost:7088/swagger/index.html - - - 200 - text/html;charset=utf-8 647.0084ms",
+    "EventId": { "Id": 2 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7F97MOOI:00000001",
+    "RequestPath": "/swagger/index.html",
+    "ConnectionId": "0HMFI7F97MOOI",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 17492,
+    "ThreadId": 10
+  },
+  "Renderings": {
+    "HostingRequestFinishedLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request finished HTTP/2 GET https://localhost:7088/swagger/index.html - - - 200 - text/html;charset=utf-8 647.0084ms"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:35:02.1933664+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestStartingLog:l}",
+  "Properties": {
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "ContentType": null,
+    "ContentLength": null,
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/_framework/aspnetcore-browser-refresh.js",
+    "QueryString": "",
+    "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - -",
+    "EventId": { "Id": 1 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7F97MOOI:00000003",
+    "RequestPath": "/_framework/aspnetcore-browser-refresh.js",
+    "ConnectionId": "0HMFI7F97MOOI",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 17492,
+    "ThreadId": 7
+  },
+  "Renderings": {
+    "HostingRequestStartingLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request starting HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - -"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:35:02.2319736+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestFinishedLog:l}",
+  "Properties": {
+    "ElapsedMilliseconds": 38.4915,
+    "StatusCode": 200,
+    "ContentType": "application/javascript; charset=utf-8",
+    "ContentLength": 11949,
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/_framework/aspnetcore-browser-refresh.js",
+    "QueryString": "",
+    "HostingRequestFinishedLog": "Request finished HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - - - 200 11949 application/javascript;+charset=utf-8 38.4915ms",
+    "EventId": { "Id": 2 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7F97MOOI:00000003",
+    "RequestPath": "/_framework/aspnetcore-browser-refresh.js",
+    "ConnectionId": "0HMFI7F97MOOI",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 17492,
+    "ThreadId": 7
+  },
+  "Renderings": {
+    "HostingRequestFinishedLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request finished HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - - - 200 11949 application/javascript;+charset=utf-8 38.4915ms"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:35:03.1731395+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestStartingLog:l}",
+  "Properties": {
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "ContentType": null,
+    "ContentLength": null,
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/swagger/v1/swagger.json",
+    "QueryString": "",
+    "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - -",
+    "EventId": { "Id": 1 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7F97MOOI:00000005",
+    "RequestPath": "/swagger/v1/swagger.json",
+    "ConnectionId": "0HMFI7F97MOOI",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 17492,
+    "ThreadId": 13
+  },
+  "Renderings": {
+    "HostingRequestStartingLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request starting HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - -"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:35:03.4854762+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestFinishedLog:l}",
+  "Properties": {
+    "ElapsedMilliseconds": 312.3472,
+    "StatusCode": 200,
+    "ContentType": "application/json;charset=utf-8",
+    "ContentLength": null,
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/swagger/v1/swagger.json",
+    "QueryString": "",
+    "HostingRequestFinishedLog": "Request finished HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 312.3472ms",
+    "EventId": { "Id": 2 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7F97MOOI:00000005",
+    "RequestPath": "/swagger/v1/swagger.json",
+    "ConnectionId": "0HMFI7F97MOOI",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 17492,
+    "ThreadId": 13
+  },
+  "Renderings": {
+    "HostingRequestFinishedLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request finished HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 312.3472ms"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:35:24.3833810+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestStartingLog:l}",
+  "Properties": {
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "ContentType": null,
+    "ContentLength": null,
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/api/WeatherForecast/Divide",
+    "QueryString": "?a=33&b=0",
+    "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:7088/api/WeatherForecast/Divide?a=33&b=0 - -",
+    "EventId": { "Id": 1 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7F97MOOI:00000007",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7F97MOOI",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 17492,
+    "ThreadId": 13
+  },
+  "Renderings": {
+    "HostingRequestStartingLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request starting HTTP/2 GET https://localhost:7088/api/WeatherForecast/Divide?a=33&b=0 - -"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:35:24.4051016+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executing endpoint '{EndpointName}'",
+  "Properties": {
+    "EndpointName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "EventId": { "Name": "ExecutingEndpoint" },
+    "SourceContext": "Microsoft.AspNetCore.Routing.EndpointMiddleware",
+    "RequestId": "0HMFI7F97MOOI:00000007",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7F97MOOI",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 17492,
+    "ThreadId": 13
+  }
+} {
+  "Timestamp": "2022-02-17T22:35:24.4528520+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Route matched with {RouteData}. Executing controller action with signature {MethodInfo} on controller {Controller} ({AssemblyName}).",
+  "Properties": {
+    "RouteData": "{action = \"Divide\", controller = \"WeatherForecast\"}",
+    "MethodInfo": "System.Decimal Divide(System.Decimal, System.Decimal)",
+    "Controller": "Logging_Serilog.Controllers.WeatherForecastController",
+    "AssemblyName": "Logging_Serilog",
+    "EventId": {
+      "Id": 3,
+      "Name": "ControllerActionExecuting"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker",
+    "ActionId": "f4776a2e-9d75-4350-9888-0ce07f6e9f9a",
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "RequestId": "0HMFI7F97MOOI:00000007",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7F97MOOI",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 17492,
+    "ThreadId": 13
+  }
+} {
+  "Timestamp": "2022-02-17T22:35:24.7213362+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executing action method {ActionName} - Validation state: {ValidationState}",
+  "Properties": {
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "ValidationState": "Valid",
+    "EventId": {
+      "Id": 1,
+      "Name": "ActionMethodExecuting"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker",
+    "ActionId": "f4776a2e-9d75-4350-9888-0ce07f6e9f9a",
+    "RequestId": "0HMFI7F97MOOI:00000007",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7F97MOOI",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 17492,
+    "ThreadId": 13
+  }
+} {
+  "Timestamp": "2022-02-17T22:35:24.8724132+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Error in Divide Method - Value of a is {a}",
+  "Properties": {
+    "a": 33,
+    "SourceContext": "Logging_Serilog.Controllers.WeatherForecastController",
+    "ActionId": "f4776a2e-9d75-4350-9888-0ce07f6e9f9a",
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "RequestId": "0HMFI7F97MOOI:00000007",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7F97MOOI",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 17492,
+    "ThreadId": 13
+  }
+} {
+  "Timestamp": "2022-02-17T22:35:24.8782268+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Error in Divide Method - Value of b is {b}",
+  "Properties": {
+    "b": 0,
+    "SourceContext": "Logging_Serilog.Controllers.WeatherForecastController",
+    "ActionId": "f4776a2e-9d75-4350-9888-0ce07f6e9f9a",
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "RequestId": "0HMFI7F97MOOI:00000007",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7F97MOOI",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 17492,
+    "ThreadId": 13
+  }
+} {
+  "Timestamp": "2022-02-17T22:35:24.8806321+05:00",
+  "Level": "Error",
+  "MessageTemplate": "Error in Divide Method",
+  "Exception": "System.DivideByZeroException: Attempted to divide by zero.\r\n   at System.Decimal.DecCalc.VarDecDiv(DecCalc& d1, DecCalc& d2)\r\n   at System.Decimal.op_Division(Decimal d1, Decimal d2)\r\n   at Logging_Serilog.Controllers.WeatherForecastController.Divide(Decimal a, Decimal b) in C:\\Users\\Admin\\Desktop\\Logging_Serilog\\Logging_Serilog\\Controllers\\WeatherForecastController.cs:line 27",
+  "Properties": {
+    "SourceContext": "Logging_Serilog.Controllers.WeatherForecastController",
+    "ActionId": "f4776a2e-9d75-4350-9888-0ce07f6e9f9a",
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "RequestId": "0HMFI7F97MOOI:00000007",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7F97MOOI",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 17492,
+    "ThreadId": 13
+  }
+} {
+  "Timestamp": "2022-02-17T22:35:24.9844722+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executed action method {ActionName}, returned result {ActionResult} in {ElapsedMilliseconds}ms.",
+  "Properties": {
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "ActionResult": "Microsoft.AspNetCore.Mvc.ObjectResult",
+    "ElapsedMilliseconds": 243.7493,
+    "EventId": {
+      "Id": 2,
+      "Name": "ActionMethodExecuted"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker",
+    "ActionId": "f4776a2e-9d75-4350-9888-0ce07f6e9f9a",
+    "RequestId": "0HMFI7F97MOOI:00000007",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7F97MOOI",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 17492,
+    "ThreadId": 13
+  }
+} {
+  "Timestamp": "2022-02-17T22:35:25.0001527+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executing {ObjectResultType}, writing value of type '{Type}'.",
+  "Properties": {
+    "ObjectResultType": "ObjectResult",
+    "Type": "System.Decimal",
+    "EventId": {
+      "Id": 1,
+      "Name": "ObjectResultExecuting"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor",
+    "ActionId": "f4776a2e-9d75-4350-9888-0ce07f6e9f9a",
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "RequestId": "0HMFI7F97MOOI:00000007",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7F97MOOI",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 17492,
+    "ThreadId": 13
+  }
+} {
+  "Timestamp": "2022-02-17T22:35:25.0278925+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executed action {ActionName} in {ElapsedMilliseconds}ms",
+  "Properties": {
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "ElapsedMilliseconds": 550.7863,
+    "EventId": {
+      "Id": 2,
+      "Name": "ActionExecuted"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker",
+    "RequestId": "0HMFI7F97MOOI:00000007",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7F97MOOI",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 17492,
+    "ThreadId": 13
+  }
+} {
+  "Timestamp": "2022-02-17T22:35:25.0306052+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executed endpoint '{EndpointName}'",
+  "Properties": {
+    "EndpointName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "EventId": {
+      "Id": 1,
+      "Name": "ExecutedEndpoint"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Routing.EndpointMiddleware",
+    "RequestId": "0HMFI7F97MOOI:00000007",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7F97MOOI",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 17492,
+    "ThreadId": 13
+  }
+} {
+  "Timestamp": "2022-02-17T22:35:25.0339929+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestFinishedLog:l}",
+  "Properties": {
+    "ElapsedMilliseconds": 665.4241,
+    "StatusCode": 200,
+    "ContentType": "application/json; charset=utf-8",
+    "ContentLength": null,
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/api/WeatherForecast/Divide",
+    "QueryString": "?a=33&b=0",
+    "HostingRequestFinishedLog": "Request finished HTTP/2 GET https://localhost:7088/api/WeatherForecast/Divide?a=33&b=0 - - - 200 - application/json;+charset=utf-8 665.4241ms",
+    "EventId": { "Id": 2 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7F97MOOI:00000007",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7F97MOOI",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 17492,
+    "ThreadId": 13
+  },
+  "Renderings": {
+    "HostingRequestFinishedLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request finished HTTP/2 GET https://localhost:7088/api/WeatherForecast/Divide?a=33&b=0 - - - 200 - application/json;+charset=utf-8 665.4241ms"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:38:54.8665078+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Now listening on: {address}",
+  "Properties": {
+    "address": "https://localhost:7088",
+    "EventId": {
+      "Id": 14,
+      "Name": "ListeningOnAddress"
+    },
+    "SourceContext": "Microsoft.Hosting.Lifetime",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 12324,
+    "ThreadId": 1
+  }
+} {
+  "Timestamp": "2022-02-17T22:38:54.9457076+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Now listening on: {address}",
+  "Properties": {
+    "address": "http://localhost:5088",
+    "EventId": {
+      "Id": 14,
+      "Name": "ListeningOnAddress"
+    },
+    "SourceContext": "Microsoft.Hosting.Lifetime",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 12324,
+    "ThreadId": 1
+  }
+} {
+  "Timestamp": "2022-02-17T22:38:54.9563358+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Application started. Press Ctrl+C to shut down.",
+  "Properties": {
+    "SourceContext": "Microsoft.Hosting.Lifetime",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 12324,
+    "ThreadId": 1
+  }
+} {
+  "Timestamp": "2022-02-17T22:38:54.9598981+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Hosting environment: {envName}",
+  "Properties": {
+    "envName": "Development",
+    "SourceContext": "Microsoft.Hosting.Lifetime",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 12324,
+    "ThreadId": 1
+  }
+} {
+  "Timestamp": "2022-02-17T22:38:54.9617780+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Content root path: {contentRoot}",
+  "Properties": {
+    "contentRoot": "C:\\Users\\Admin\\Desktop\\Logging_Serilog\\Logging_Serilog\\",
+    "SourceContext": "Microsoft.Hosting.Lifetime",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 12324,
+    "ThreadId": 1
+  }
+} {
+  "Timestamp": "2022-02-17T22:38:56.8794946+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestStartingLog:l}",
+  "Properties": {
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "ContentType": null,
+    "ContentLength": null,
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/swagger/index.html",
+    "QueryString": "",
+    "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:7088/swagger/index.html - -",
+    "EventId": { "Id": 1 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7HFEGCCN:00000001",
+    "RequestPath": "/swagger/index.html",
+    "ConnectionId": "0HMFI7HFEGCCN",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 12324,
+    "ThreadId": 12
+  },
+  "Renderings": {
+    "HostingRequestStartingLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request starting HTTP/2 GET https://localhost:7088/swagger/index.html - -"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:38:57.7968602+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestFinishedLog:l}",
+  "Properties": {
+    "ElapsedMilliseconds": 927.8058,
+    "StatusCode": 200,
+    "ContentType": "text/html;charset=utf-8",
+    "ContentLength": null,
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/swagger/index.html",
+    "QueryString": "",
+    "HostingRequestFinishedLog": "Request finished HTTP/2 GET https://localhost:7088/swagger/index.html - - - 200 - text/html;charset=utf-8 927.8058ms",
+    "EventId": { "Id": 2 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7HFEGCCN:00000001",
+    "RequestPath": "/swagger/index.html",
+    "ConnectionId": "0HMFI7HFEGCCN",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 12324,
+    "ThreadId": 14
+  },
+  "Renderings": {
+    "HostingRequestFinishedLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request finished HTTP/2 GET https://localhost:7088/swagger/index.html - - - 200 - text/html;charset=utf-8 927.8058ms"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:38:57.9427968+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestStartingLog:l}",
+  "Properties": {
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "ContentType": null,
+    "ContentLength": null,
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/_framework/aspnetcore-browser-refresh.js",
+    "QueryString": "",
+    "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - -",
+    "EventId": { "Id": 1 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7HFEGCCN:00000003",
+    "RequestPath": "/_framework/aspnetcore-browser-refresh.js",
+    "ConnectionId": "0HMFI7HFEGCCN",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 12324,
+    "ThreadId": 10
+  },
+  "Renderings": {
+    "HostingRequestStartingLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request starting HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - -"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:38:58.1155124+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestFinishedLog:l}",
+  "Properties": {
+    "ElapsedMilliseconds": 172.8707,
+    "StatusCode": 200,
+    "ContentType": "application/javascript; charset=utf-8",
+    "ContentLength": 11949,
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/_framework/aspnetcore-browser-refresh.js",
+    "QueryString": "",
+    "HostingRequestFinishedLog": "Request finished HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - - - 200 11949 application/javascript;+charset=utf-8 172.8707ms",
+    "EventId": { "Id": 2 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7HFEGCCN:00000003",
+    "RequestPath": "/_framework/aspnetcore-browser-refresh.js",
+    "ConnectionId": "0HMFI7HFEGCCN",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 12324,
+    "ThreadId": 10
+  },
+  "Renderings": {
+    "HostingRequestFinishedLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request finished HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - - - 200 11949 application/javascript;+charset=utf-8 172.8707ms"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:38:58.1462821+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestStartingLog:l}",
+  "Properties": {
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "ContentType": null,
+    "ContentLength": null,
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/_framework/aspnetcore-browser-refresh.js",
+    "QueryString": "",
+    "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - -",
+    "EventId": { "Id": 1 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7HFEGCCN:00000005",
+    "RequestPath": "/_framework/aspnetcore-browser-refresh.js",
+    "ConnectionId": "0HMFI7HFEGCCN",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 12324,
+    "ThreadId": 7
+  },
+  "Renderings": {
+    "HostingRequestStartingLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request starting HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - -"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:38:58.1892408+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestFinishedLog:l}",
+  "Properties": {
+    "ElapsedMilliseconds": 46.0189,
+    "StatusCode": 200,
+    "ContentType": "application/javascript; charset=utf-8",
+    "ContentLength": 11949,
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/_framework/aspnetcore-browser-refresh.js",
+    "QueryString": "",
+    "HostingRequestFinishedLog": "Request finished HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - - - 200 11949 application/javascript;+charset=utf-8 46.0189ms",
+    "EventId": { "Id": 2 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7HFEGCCN:00000005",
+    "RequestPath": "/_framework/aspnetcore-browser-refresh.js",
+    "ConnectionId": "0HMFI7HFEGCCN",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 12324,
+    "ThreadId": 7
+  },
+  "Renderings": {
+    "HostingRequestFinishedLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request finished HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - - - 200 11949 application/javascript;+charset=utf-8 46.0189ms"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:38:58.9230691+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestStartingLog:l}",
+  "Properties": {
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "ContentType": null,
+    "ContentLength": null,
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/swagger/v1/swagger.json",
+    "QueryString": "",
+    "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - -",
+    "EventId": { "Id": 1 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7HFEGCCN:00000007",
+    "RequestPath": "/swagger/v1/swagger.json",
+    "ConnectionId": "0HMFI7HFEGCCN",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 12324,
+    "ThreadId": 10
+  },
+  "Renderings": {
+    "HostingRequestStartingLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request starting HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - -"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:38:59.2627611+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestFinishedLog:l}",
+  "Properties": {
+    "ElapsedMilliseconds": 339.5981,
+    "StatusCode": 200,
+    "ContentType": "application/json;charset=utf-8",
+    "ContentLength": null,
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/swagger/v1/swagger.json",
+    "QueryString": "",
+    "HostingRequestFinishedLog": "Request finished HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 339.5981ms",
+    "EventId": { "Id": 2 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7HFEGCCN:00000007",
+    "RequestPath": "/swagger/v1/swagger.json",
+    "ConnectionId": "0HMFI7HFEGCCN",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 12324,
+    "ThreadId": 10
+  },
+  "Renderings": {
+    "HostingRequestFinishedLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request finished HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 339.5981ms"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:39:08.3417611+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestStartingLog:l}",
+  "Properties": {
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "ContentType": null,
+    "ContentLength": null,
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/api/WeatherForecast/Divide",
+    "QueryString": "?a=100&b=0",
+    "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:7088/api/WeatherForecast/Divide?a=100&b=0 - -",
+    "EventId": { "Id": 1 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7HFEGCCN:00000009",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7HFEGCCN",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 12324,
+    "ThreadId": 12
+  },
+  "Renderings": {
+    "HostingRequestStartingLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request starting HTTP/2 GET https://localhost:7088/api/WeatherForecast/Divide?a=100&b=0 - -"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:39:08.3684413+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executing endpoint '{EndpointName}'",
+  "Properties": {
+    "EndpointName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "EventId": { "Name": "ExecutingEndpoint" },
+    "SourceContext": "Microsoft.AspNetCore.Routing.EndpointMiddleware",
+    "RequestId": "0HMFI7HFEGCCN:00000009",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7HFEGCCN",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 12324,
+    "ThreadId": 12
+  }
+} {
+  "Timestamp": "2022-02-17T22:39:08.4079345+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Route matched with {RouteData}. Executing controller action with signature {MethodInfo} on controller {Controller} ({AssemblyName}).",
+  "Properties": {
+    "RouteData": "{action = \"Divide\", controller = \"WeatherForecast\"}",
+    "MethodInfo": "System.Decimal Divide(System.Decimal, System.Decimal)",
+    "Controller": "Logging_Serilog.Controllers.WeatherForecastController",
+    "AssemblyName": "Logging_Serilog",
+    "EventId": {
+      "Id": 3,
+      "Name": "ControllerActionExecuting"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker",
+    "ActionId": "843404c3-e03e-4dbc-822d-48aa75fb5e24",
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "RequestId": "0HMFI7HFEGCCN:00000009",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7HFEGCCN",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 12324,
+    "ThreadId": 12
+  }
+} {
+  "Timestamp": "2022-02-17T22:39:08.6652246+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executing action method {ActionName} - Validation state: {ValidationState}",
+  "Properties": {
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "ValidationState": "Valid",
+    "EventId": {
+      "Id": 1,
+      "Name": "ActionMethodExecuting"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker",
+    "ActionId": "843404c3-e03e-4dbc-822d-48aa75fb5e24",
+    "RequestId": "0HMFI7HFEGCCN:00000009",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7HFEGCCN",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 12324,
+    "ThreadId": 12
+  }
+} {
+  "Timestamp": "2022-02-17T22:39:08.8120950+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Error in Divide Method - Value of a is {a}",
+  "Properties": {
+    "a": 100,
+    "SourceContext": "Logging_Serilog.Controllers.WeatherForecastController",
+    "ActionId": "843404c3-e03e-4dbc-822d-48aa75fb5e24",
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "RequestId": "0HMFI7HFEGCCN:00000009",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7HFEGCCN",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 12324,
+    "ThreadId": 12
+  }
+} {
+  "Timestamp": "2022-02-17T22:39:08.8184918+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Error in Divide Method - Value of b is {b}",
+  "Properties": {
+    "b": 0,
+    "SourceContext": "Logging_Serilog.Controllers.WeatherForecastController",
+    "ActionId": "843404c3-e03e-4dbc-822d-48aa75fb5e24",
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "RequestId": "0HMFI7HFEGCCN:00000009",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7HFEGCCN",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 12324,
+    "ThreadId": 12
+  }
+} {
+  "Timestamp": "2022-02-17T22:39:08.8207654+05:00",
+  "Level": "Error",
+  "MessageTemplate": "Error in Divide Method",
+  "Exception": "System.DivideByZeroException: Attempted to divide by zero.\r\n   at System.Decimal.DecCalc.VarDecDiv(DecCalc& d1, DecCalc& d2)\r\n   at System.Decimal.op_Division(Decimal d1, Decimal d2)\r\n   at Logging_Serilog.Controllers.WeatherForecastController.Divide(Decimal a, Decimal b) in C:\\Users\\Admin\\Desktop\\Logging_Serilog\\Logging_Serilog\\Controllers\\WeatherForecastController.cs:line 27",
+  "Properties": {
+    "SourceContext": "Logging_Serilog.Controllers.WeatherForecastController",
+    "ActionId": "843404c3-e03e-4dbc-822d-48aa75fb5e24",
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "RequestId": "0HMFI7HFEGCCN:00000009",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7HFEGCCN",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 12324,
+    "ThreadId": 12
+  }
+} {
+  "Timestamp": "2022-02-17T22:39:08.8926944+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executed action method {ActionName}, returned result {ActionResult} in {ElapsedMilliseconds}ms.",
+  "Properties": {
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "ActionResult": "Microsoft.AspNetCore.Mvc.ObjectResult",
+    "ElapsedMilliseconds": 215.6874,
+    "EventId": {
+      "Id": 2,
+      "Name": "ActionMethodExecuted"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker",
+    "ActionId": "843404c3-e03e-4dbc-822d-48aa75fb5e24",
+    "RequestId": "0HMFI7HFEGCCN:00000009",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7HFEGCCN",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 12324,
+    "ThreadId": 12
+  }
+} {
+  "Timestamp": "2022-02-17T22:39:08.9077624+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executing {ObjectResultType}, writing value of type '{Type}'.",
+  "Properties": {
+    "ObjectResultType": "ObjectResult",
+    "Type": "System.Decimal",
+    "EventId": {
+      "Id": 1,
+      "Name": "ObjectResultExecuting"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor",
+    "ActionId": "843404c3-e03e-4dbc-822d-48aa75fb5e24",
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "RequestId": "0HMFI7HFEGCCN:00000009",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7HFEGCCN",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 12324,
+    "ThreadId": 12
+  }
+} {
+  "Timestamp": "2022-02-17T22:39:08.9296817+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executed action {ActionName} in {ElapsedMilliseconds}ms",
+  "Properties": {
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "ElapsedMilliseconds": 507.111,
+    "EventId": {
+      "Id": 2,
+      "Name": "ActionExecuted"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker",
+    "RequestId": "0HMFI7HFEGCCN:00000009",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7HFEGCCN",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 12324,
+    "ThreadId": 12
+  }
+} {
+  "Timestamp": "2022-02-17T22:39:08.9334773+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executed endpoint '{EndpointName}'",
+  "Properties": {
+    "EndpointName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "EventId": {
+      "Id": 1,
+      "Name": "ExecutedEndpoint"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Routing.EndpointMiddleware",
+    "RequestId": "0HMFI7HFEGCCN:00000009",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7HFEGCCN",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 12324,
+    "ThreadId": 12
+  }
+} {
+
+  "Timestamp": "2022-02-17T22:39:08.9354696+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestFinishedLog:l}",
+  "Properties": {
+    "ElapsedMilliseconds": 593.7111,
+    "StatusCode": 200,
+    "ContentType": "application/json; charset=utf-8",
+    "ContentLength": null,
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/api/WeatherForecast/Divide",
+    "QueryString": "?a=100&b=0",
+    "HostingRequestFinishedLog": "Request finished HTTP/2 GET https://localhost:7088/api/WeatherForecast/Divide?a=100&b=0 - - - 200 - application/json;+charset=utf-8 593.7111ms",
+    "EventId": { "Id": 2 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7HFEGCCN:00000009",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7HFEGCCN",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 12324,
+    "ThreadId": 12
+  },
+  "Renderings": {
+    "HostingRequestFinishedLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request finished HTTP/2 GET https://localhost:7088/api/WeatherForecast/Divide?a=100&b=0 - - - 200 - application/json;+charset=utf-8 593.7111ms"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:41:01.2064169+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Now listening on: {address}",
+  "Properties": {
+    "address": "https://localhost:7088",
+    "EventId": {
+      "Id": 14,
+      "Name": "ListeningOnAddress"
+    },
+    "SourceContext": "Microsoft.Hosting.Lifetime",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 7508,
+    "ThreadId": 1
+  }
+} {
+  "Timestamp": "2022-02-17T22:41:01.2908550+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Now listening on: {address}",
+  "Properties": {
+    "address": "http://localhost:5088",
+    "EventId": {
+      "Id": 14,
+      "Name": "ListeningOnAddress"
+    },
+    "SourceContext": "Microsoft.Hosting.Lifetime",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 7508,
+    "ThreadId": 1
+  }
+} {
+  "Timestamp": "2022-02-17T22:41:01.3038913+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Application started. Press Ctrl+C to shut down.",
+  "Properties": {
+    "SourceContext": "Microsoft.Hosting.Lifetime",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 7508,
+    "ThreadId": 1
+  }
+} {
+  "Timestamp": "2022-02-17T22:41:01.3060845+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Hosting environment: {envName}",
+  "Properties": {
+    "envName": "Development",
+    "SourceContext": "Microsoft.Hosting.Lifetime",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 7508,
+    "ThreadId": 1
+  }
+} {
+  "Timestamp": "2022-02-17T22:41:01.3080640+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Content root path: {contentRoot}",
+  "Properties": {
+    "contentRoot": "C:\\Users\\Admin\\Desktop\\Logging_Serilog\\Logging_Serilog\\",
+    "SourceContext": "Microsoft.Hosting.Lifetime",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 7508,
+    "ThreadId": 1
+  }
+} {
+  "Timestamp": "2022-02-17T22:41:03.3269621+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestStartingLog:l}",
+  "Properties": {
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "ContentType": null,
+    "ContentLength": null,
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/swagger/index.html",
+    "QueryString": "",
+    "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:7088/swagger/index.html - -",
+    "EventId": { "Id": 1 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7IL29VQS:00000001",
+    "RequestPath": "/swagger/index.html",
+    "ConnectionId": "0HMFI7IL29VQS",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 7508,
+    "ThreadId": 11
+  },
+  "Renderings": {
+    "HostingRequestStartingLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request starting HTTP/2 GET https://localhost:7088/swagger/index.html - -"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:41:04.5180754+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestFinishedLog:l}",
+  "Properties": {
+    "ElapsedMilliseconds": 1204.1,
+    "StatusCode": 200,
+    "ContentType": "text/html;charset=utf-8",
+    "ContentLength": null,
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/swagger/index.html",
+    "QueryString": "",
+    "HostingRequestFinishedLog": "Request finished HTTP/2 GET https://localhost:7088/swagger/index.html - - - 200 - text/html;charset=utf-8 1204.1000ms",
+    "EventId": { "Id": 2 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7IL29VQS:00000001",
+    "RequestPath": "/swagger/index.html",
+    "ConnectionId": "0HMFI7IL29VQS",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 7508,
+    "ThreadId": 8
+  },
+  "Renderings": {
+    "HostingRequestFinishedLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request finished HTTP/2 GET https://localhost:7088/swagger/index.html - - - 200 - text/html;charset=utf-8 1204.1000ms"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:41:05.9293129+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestStartingLog:l}",
+  "Properties": {
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "ContentType": null,
+    "ContentLength": null,
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/_framework/aspnetcore-browser-refresh.js",
+    "QueryString": "",
+    "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - -",
+    "EventId": { "Id": 1 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7IL29VQS:00000003",
+    "RequestPath": "/_framework/aspnetcore-browser-refresh.js",
+    "ConnectionId": "0HMFI7IL29VQS",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 7508,
+    "ThreadId": 11
+  },
+  "Renderings": {
+    "HostingRequestStartingLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request starting HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - -"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:41:05.9422165+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestFinishedLog:l}",
+  "Properties": {
+    "ElapsedMilliseconds": 12.849,
+    "StatusCode": 200,
+    "ContentType": "application/javascript; charset=utf-8",
+    "ContentLength": 11949,
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/_framework/aspnetcore-browser-refresh.js",
+    "QueryString": "",
+    "HostingRequestFinishedLog": "Request finished HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - - - 200 11949 application/javascript;+charset=utf-8 12.8490ms",
+    "EventId": { "Id": 2 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7IL29VQS:00000003",
+    "RequestPath": "/_framework/aspnetcore-browser-refresh.js",
+    "ConnectionId": "0HMFI7IL29VQS",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 7508,
+    "ThreadId": 11
+  },
+  "Renderings": {
+    "HostingRequestFinishedLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request finished HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - - - 200 11949 application/javascript;+charset=utf-8 12.8490ms"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:41:08.6206431+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestStartingLog:l}",
+  "Properties": {
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "ContentType": null,
+    "ContentLength": null,
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/swagger/v1/swagger.json",
+    "QueryString": "",
+    "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - -",
+    "EventId": { "Id": 1 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7IL29VQS:00000005",
+    "RequestPath": "/swagger/v1/swagger.json",
+    "ConnectionId": "0HMFI7IL29VQS",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 7508,
+    "ThreadId": 10
+  },
+  "Renderings": {
+    "HostingRequestStartingLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request starting HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - -"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:41:09.1097981+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestFinishedLog:l}",
+  "Properties": {
+    "ElapsedMilliseconds": 489.126,
+    "StatusCode": 200,
+    "ContentType": "application/json;charset=utf-8",
+    "ContentLength": null,
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/swagger/v1/swagger.json",
+    "QueryString": "",
+    "HostingRequestFinishedLog": "Request finished HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 489.1260ms",
+    "EventId": { "Id": 2 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7IL29VQS:00000005",
+    "RequestPath": "/swagger/v1/swagger.json",
+    "ConnectionId": "0HMFI7IL29VQS",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 7508,
+    "ThreadId": 10
+  },
+  "Renderings": {
+    "HostingRequestFinishedLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request finished HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 489.1260ms"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:41:46.1231747+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestStartingLog:l}",
+  "Properties": {
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "ContentType": null,
+    "ContentLength": null,
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/api/WeatherForecast/Divide",
+    "QueryString": "?a=77&b=0",
+    "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:7088/api/WeatherForecast/Divide?a=77&b=0 - -",
+    "EventId": { "Id": 1 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7IL29VQS:00000007",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7IL29VQS",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 7508,
+    "ThreadId": 11
+  },
+  "Renderings": {
+    "HostingRequestStartingLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request starting HTTP/2 GET https://localhost:7088/api/WeatherForecast/Divide?a=77&b=0 - -"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:41:46.1697915+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executing endpoint '{EndpointName}'",
+  "Properties": {
+    "EndpointName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "EventId": { "Name": "ExecutingEndpoint" },
+    "SourceContext": "Microsoft.AspNetCore.Routing.EndpointMiddleware",
+    "RequestId": "0HMFI7IL29VQS:00000007",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7IL29VQS",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 7508,
+    "ThreadId": 11
+  }
+} {
+  "Timestamp": "2022-02-17T22:41:46.2139152+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Route matched with {RouteData}. Executing controller action with signature {MethodInfo} on controller {Controller} ({AssemblyName}).",
+  "Properties": {
+    "RouteData": "{action = \"Divide\", controller = \"WeatherForecast\"}",
+    "MethodInfo": "System.Decimal Divide(System.Decimal, System.Decimal)",
+    "Controller": "Logging_Serilog.Controllers.WeatherForecastController",
+    "AssemblyName": "Logging_Serilog",
+    "EventId": {
+      "Id": 3,
+      "Name": "ControllerActionExecuting"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker",
+    "ActionId": "6f22e6ee-50cf-471d-8294-6aa803d76256",
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "RequestId": "0HMFI7IL29VQS:00000007",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7IL29VQS",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 7508,
+    "ThreadId": 11
+  }
+} {
+  "Timestamp": "2022-02-17T22:41:46.6908823+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executing action method {ActionName} - Validation state: {ValidationState}",
+  "Properties": {
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "ValidationState": "Valid",
+    "EventId": {
+      "Id": 1,
+      "Name": "ActionMethodExecuting"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker",
+    "ActionId": "6f22e6ee-50cf-471d-8294-6aa803d76256",
+    "RequestId": "0HMFI7IL29VQS:00000007",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7IL29VQS",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 7508,
+    "ThreadId": 11
+  }
+} {
+  "Timestamp": "2022-02-17T22:41:46.9182826+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Error in Divide Method - Value of a is {a}",
+  "Properties": {
+    "a": 77,
+    "SourceContext": "Logging_Serilog.Controllers.WeatherForecastController",
+    "ActionId": "6f22e6ee-50cf-471d-8294-6aa803d76256",
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "RequestId": "0HMFI7IL29VQS:00000007",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7IL29VQS",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 7508,
+    "ThreadId": 11
+  }
+} {
+  "Timestamp": "2022-02-17T22:41:46.9202374+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Error in Divide Method - Value of b is {b}",
+  "Properties": {
+    "b": 0,
+    "SourceContext": "Logging_Serilog.Controllers.WeatherForecastController",
+    "ActionId": "6f22e6ee-50cf-471d-8294-6aa803d76256",
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "RequestId": "0HMFI7IL29VQS:00000007",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7IL29VQS",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 7508,
+    "ThreadId": 11
+  }
+} {
+  "Timestamp": "2022-02-17T22:41:46.9219785+05:00",
+  "Level": "Error",
+  "MessageTemplate": "Error in Divide Method",
+  "Exception": "System.DivideByZeroException: Attempted to divide by zero.\r\n   at System.Decimal.DecCalc.VarDecDiv(DecCalc& d1, DecCalc& d2)\r\n   at System.Decimal.op_Division(Decimal d1, Decimal d2)\r\n   at Logging_Serilog.Controllers.WeatherForecastController.Divide(Decimal a, Decimal b) in C:\\Users\\Admin\\Desktop\\Logging_Serilog\\Logging_Serilog\\Controllers\\WeatherForecastController.cs:line 27",
+  "Properties": {
+    "SourceContext": "Logging_Serilog.Controllers.WeatherForecastController",
+    "ActionId": "6f22e6ee-50cf-471d-8294-6aa803d76256",
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "RequestId": "0HMFI7IL29VQS:00000007",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7IL29VQS",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 7508,
+    "ThreadId": 11
+  }
+} {
+  "Timestamp": "2022-02-17T22:41:47.0479244+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executed action method {ActionName}, returned result {ActionResult} in {ElapsedMilliseconds}ms.",
+  "Properties": {
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "ActionResult": "Microsoft.AspNetCore.Mvc.ObjectResult",
+    "ElapsedMilliseconds": 293.753,
+    "EventId": {
+      "Id": 2,
+      "Name": "ActionMethodExecuted"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker",
+    "ActionId": "6f22e6ee-50cf-471d-8294-6aa803d76256",
+    "RequestId": "0HMFI7IL29VQS:00000007",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7IL29VQS",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 7508,
+    "ThreadId": 11
+  }
+} {
+  "Timestamp": "2022-02-17T22:41:47.0741166+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executing {ObjectResultType}, writing value of type '{Type}'.",
+  "Properties": {
+    "ObjectResultType": "ObjectResult",
+    "Type": "System.Decimal",
+    "EventId": {
+      "Id": 1,
+      "Name": "ObjectResultExecuting"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor",
+    "ActionId": "6f22e6ee-50cf-471d-8294-6aa803d76256",
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "RequestId": "0HMFI7IL29VQS:00000007",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7IL29VQS",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 7508,
+    "ThreadId": 11
+  }
+} {
+  "Timestamp": "2022-02-17T22:41:47.1042456+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executed action {ActionName} in {ElapsedMilliseconds}ms",
+  "Properties": {
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "ElapsedMilliseconds": 869.7952,
+    "EventId": {
+      "Id": 2,
+      "Name": "ActionExecuted"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker",
+    "RequestId": "0HMFI7IL29VQS:00000007",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7IL29VQS",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 7508,
+    "ThreadId": 11
+  }
+} {
+  "Timestamp": "2022-02-17T22:41:47.1078844+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executed endpoint '{EndpointName}'",
+  "Properties": {
+    "EndpointName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "EventId": {
+      "Id": 1,
+      "Name": "ExecutedEndpoint"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Routing.EndpointMiddleware",
+    "RequestId": "0HMFI7IL29VQS:00000007",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7IL29VQS",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 7508,
+    "ThreadId": 11
+  }
+} {
+  "Timestamp": "2022-02-17T22:41:47.1115190+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestFinishedLog:l}",
+  "Properties": {
+    "ElapsedMilliseconds": 988.3521,
+    "StatusCode": 200,
+    "ContentType": "application/json; charset=utf-8",
+    "ContentLength": null,
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/api/WeatherForecast/Divide",
+    "QueryString": "?a=77&b=0",
+    "HostingRequestFinishedLog": "Request finished HTTP/2 GET https://localhost:7088/api/WeatherForecast/Divide?a=77&b=0 - - - 200 - application/json;+charset=utf-8 988.3521ms",
+    "EventId": { "Id": 2 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7IL29VQS:00000007",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7IL29VQS",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 7508,
+    "ThreadId": 11
+  },
+  "Renderings": {
+    "HostingRequestFinishedLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request finished HTTP/2 GET https://localhost:7088/api/WeatherForecast/Divide?a=77&b=0 - - - 200 - application/json;+charset=utf-8 988.3521ms"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:43:04.8632328+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Now listening on: {address}",
+  "Properties": {
+    "address": "https://localhost:7088",
+    "EventId": {
+      "Id": 14,
+      "Name": "ListeningOnAddress"
+    },
+    "SourceContext": "Microsoft.Hosting.Lifetime",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 14500,
+    "ThreadId": 1
+  }
+} {
+  "Timestamp": "2022-02-17T22:43:04.9480458+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Now listening on: {address}",
+  "Properties": {
+    "address": "http://localhost:5088",
+    "EventId": {
+      "Id": 14,
+      "Name": "ListeningOnAddress"
+    },
+    "SourceContext": "Microsoft.Hosting.Lifetime",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 14500,
+    "ThreadId": 1
+  }
+} {
+  "Timestamp": "2022-02-17T22:43:04.9934273+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Application started. Press Ctrl+C to shut down.",
+  "Properties": {
+    "SourceContext": "Microsoft.Hosting.Lifetime",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 14500,
+    "ThreadId": 1
+  }
+} {
+  "Timestamp": "2022-02-17T22:43:05.0102130+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Hosting environment: {envName}",
+  "Properties": {
+    "envName": "Development",
+    "SourceContext": "Microsoft.Hosting.Lifetime",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 14500,
+    "ThreadId": 1
+  }
+} {
+  "Timestamp": "2022-02-17T22:43:05.0140335+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Content root path: {contentRoot}",
+  "Properties": {
+    "contentRoot": "C:\\Users\\Admin\\Desktop\\Logging_Serilog\\Logging_Serilog\\",
+    "SourceContext": "Microsoft.Hosting.Lifetime",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 14500,
+    "ThreadId": 1
+  }
+} {
+  "Timestamp": "2022-02-17T22:43:07.0403869+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestStartingLog:l}",
+  "Properties": {
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "ContentType": null,
+    "ContentLength": null,
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/swagger/index.html",
+    "QueryString": "",
+    "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:7088/swagger/index.html - -",
+    "EventId": { "Id": 1 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7JPS2IHD:00000001",
+    "RequestPath": "/swagger/index.html",
+    "ConnectionId": "0HMFI7JPS2IHD",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 14500,
+    "ThreadId": 14
+  },
+  "Renderings": {
+    "HostingRequestStartingLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request starting HTTP/2 GET https://localhost:7088/swagger/index.html - -"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:43:08.0944572+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestFinishedLog:l}",
+  "Properties": {
+    "ElapsedMilliseconds": 1065.588,
+    "StatusCode": 200,
+    "ContentType": "text/html;charset=utf-8",
+    "ContentLength": null,
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/swagger/index.html",
+    "QueryString": "",
+    "HostingRequestFinishedLog": "Request finished HTTP/2 GET https://localhost:7088/swagger/index.html - - - 200 - text/html;charset=utf-8 1065.5880ms",
+    "EventId": { "Id": 2 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7JPS2IHD:00000001",
+    "RequestPath": "/swagger/index.html",
+    "ConnectionId": "0HMFI7JPS2IHD",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 14500,
+    "ThreadId": 10
+  },
+  "Renderings": {
+    "HostingRequestFinishedLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request finished HTTP/2 GET https://localhost:7088/swagger/index.html - - - 200 - text/html;charset=utf-8 1065.5880ms"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:43:08.2208147+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestStartingLog:l}",
+  "Properties": {
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "ContentType": null,
+    "ContentLength": null,
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/_framework/aspnetcore-browser-refresh.js",
+    "QueryString": "",
+    "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - -",
+    "EventId": { "Id": 1 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7JPS2IHD:00000003",
+    "RequestPath": "/_framework/aspnetcore-browser-refresh.js",
+    "ConnectionId": "0HMFI7JPS2IHD",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 14500,
+    "ThreadId": 4
+  },
+  "Renderings": {
+    "HostingRequestStartingLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request starting HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - -"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:43:08.4347293+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestFinishedLog:l}",
+  "Properties": {
+    "ElapsedMilliseconds": 213.8724,
+    "StatusCode": 200,
+    "ContentType": "application/javascript; charset=utf-8",
+    "ContentLength": 11949,
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/_framework/aspnetcore-browser-refresh.js",
+    "QueryString": "",
+    "HostingRequestFinishedLog": "Request finished HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - - - 200 11949 application/javascript;+charset=utf-8 213.8724ms",
+    "EventId": { "Id": 2 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7JPS2IHD:00000003",
+    "RequestPath": "/_framework/aspnetcore-browser-refresh.js",
+    "ConnectionId": "0HMFI7JPS2IHD",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 14500,
+    "ThreadId": 4
+  },
+  "Renderings": {
+    "HostingRequestFinishedLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request finished HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - - - 200 11949 application/javascript;+charset=utf-8 213.8724ms"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:43:08.4604684+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestStartingLog:l}",
+  "Properties": {
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "ContentType": null,
+    "ContentLength": null,
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/_framework/aspnetcore-browser-refresh.js",
+    "QueryString": "",
+    "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - -",
+    "EventId": { "Id": 1 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7JPS2IHD:00000005",
+    "RequestPath": "/_framework/aspnetcore-browser-refresh.js",
+    "ConnectionId": "0HMFI7JPS2IHD",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 14500,
+    "ThreadId": 14
+  },
+  "Renderings": {
+    "HostingRequestStartingLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request starting HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - -"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:43:08.4644321+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestFinishedLog:l}",
+  "Properties": {
+    "ElapsedMilliseconds": 3.95,
+    "StatusCode": 200,
+    "ContentType": "application/javascript; charset=utf-8",
+    "ContentLength": 11949,
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/_framework/aspnetcore-browser-refresh.js",
+    "QueryString": "",
+    "HostingRequestFinishedLog": "Request finished HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - - - 200 11949 application/javascript;+charset=utf-8 3.9500ms",
+    "EventId": { "Id": 2 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7JPS2IHD:00000005",
+    "RequestPath": "/_framework/aspnetcore-browser-refresh.js",
+    "ConnectionId": "0HMFI7JPS2IHD",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 14500,
+    "ThreadId": 14
+  },
+  "Renderings": {
+    "HostingRequestFinishedLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request finished HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - - - 200 11949 application/javascript;+charset=utf-8 3.9500ms"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:43:09.2857831+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestStartingLog:l}",
+  "Properties": {
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "ContentType": null,
+    "ContentLength": null,
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/swagger/v1/swagger.json",
+    "QueryString": "",
+    "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - -",
+    "EventId": { "Id": 1 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7JPS2IHD:00000007",
+    "RequestPath": "/swagger/v1/swagger.json",
+    "ConnectionId": "0HMFI7JPS2IHD",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 14500,
+    "ThreadId": 7
+  },
+  "Renderings": {
+    "HostingRequestStartingLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request starting HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - -"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:43:09.6382036+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestFinishedLog:l}",
+  "Properties": {
+    "ElapsedMilliseconds": 345.6654,
+    "StatusCode": 200,
+    "ContentType": "application/json;charset=utf-8",
+    "ContentLength": null,
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/swagger/v1/swagger.json",
+    "QueryString": "",
+    "HostingRequestFinishedLog": "Request finished HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 345.6654ms",
+    "EventId": { "Id": 2 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7JPS2IHD:00000007",
+    "RequestPath": "/swagger/v1/swagger.json",
+    "ConnectionId": "0HMFI7JPS2IHD",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 14500,
+    "ThreadId": 7
+  },
+  "Renderings": {
+    "HostingRequestFinishedLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request finished HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 345.6654ms"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:43:19.4759388+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestStartingLog:l}",
+  "Properties": {
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "ContentType": null,
+    "ContentLength": null,
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/api/WeatherForecast/Divide",
+    "QueryString": "?a=55&b=0",
+    "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:7088/api/WeatherForecast/Divide?a=55&b=0 - -",
+    "EventId": { "Id": 1 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7JPS2IHD:00000009",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7JPS2IHD",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 14500,
+    "ThreadId": 7
+  },
+  "Renderings": {
+    "HostingRequestStartingLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request starting HTTP/2 GET https://localhost:7088/api/WeatherForecast/Divide?a=55&b=0 - -"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2022-02-17T22:43:19.5048988+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executing endpoint '{EndpointName}'",
+  "Properties": {
+    "EndpointName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "EventId": { "Name": "ExecutingEndpoint" },
+    "SourceContext": "Microsoft.AspNetCore.Routing.EndpointMiddleware",
+    "RequestId": "0HMFI7JPS2IHD:00000009",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7JPS2IHD",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 14500,
+    "ThreadId": 7
+  }
+} {
+  "Timestamp": "2022-02-17T22:43:19.5396097+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Route matched with {RouteData}. Executing controller action with signature {MethodInfo} on controller {Controller} ({AssemblyName}).",
+  "Properties": {
+    "RouteData": "{action = \"Divide\", controller = \"WeatherForecast\"}",
+    "MethodInfo": "System.Decimal Divide(System.Decimal, System.Decimal)",
+    "Controller": "Logging_Serilog.Controllers.WeatherForecastController",
+    "AssemblyName": "Logging_Serilog",
+    "EventId": {
+      "Id": 3,
+      "Name": "ControllerActionExecuting"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker",
+    "ActionId": "bf5f0cbc-f6d2-414d-928c-fee9e848c56d",
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "RequestId": "0HMFI7JPS2IHD:00000009",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7JPS2IHD",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 14500,
+    "ThreadId": 7
+  }
+} {
+  "Timestamp": "2022-02-17T22:43:19.8092859+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executing action method {ActionName} - Validation state: {ValidationState}",
+  "Properties": {
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "ValidationState": "Valid",
+    "EventId": {
+      "Id": 1,
+      "Name": "ActionMethodExecuting"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker",
+    "ActionId": "bf5f0cbc-f6d2-414d-928c-fee9e848c56d",
+    "RequestId": "0HMFI7JPS2IHD:00000009",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7JPS2IHD",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 14500,
+    "ThreadId": 7
+  }
+} {
+  "Timestamp": "2022-02-17T22:43:19.9481922+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Error in Divide Method - Value of a is {a}",
+  "Properties": {
+    "a": 55,
+    "SourceContext": "Logging_Serilog.Controllers.WeatherForecastController",
+    "ActionId": "bf5f0cbc-f6d2-414d-928c-fee9e848c56d",
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "RequestId": "0HMFI7JPS2IHD:00000009",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7JPS2IHD",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 14500,
+    "ThreadId": 7
+  }
+} {
+  "Timestamp": "2022-02-17T22:43:19.9517558+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Error in Divide Method - Value of b is {b}",
+  "Properties": {
+    "b": 0,
+    "SourceContext": "Logging_Serilog.Controllers.WeatherForecastController",
+    "ActionId": "bf5f0cbc-f6d2-414d-928c-fee9e848c56d",
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "RequestId": "0HMFI7JPS2IHD:00000009",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7JPS2IHD",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 14500,
+    "ThreadId": 7
+  }
+} {
+  "Timestamp": "2022-02-17T22:43:19.9534959+05:00",
+  "Level": "Error",
+  "MessageTemplate": "Error in Divide Method",
+  "Exception": "System.DivideByZeroException: Attempted to divide by zero.\r\n   at System.Decimal.DecCalc.VarDecDiv(DecCalc& d1, DecCalc& d2)\r\n   at System.Decimal.op_Division(Decimal d1, Decimal d2)\r\n   at Logging_Serilog.Controllers.WeatherForecastController.Divide(Decimal a, Decimal b) in C:\\Users\\Admin\\Desktop\\Logging_Serilog\\Logging_Serilog\\Controllers\\WeatherForecastController.cs:line 27",
+  "Properties": {
+    "SourceContext": "Logging_Serilog.Controllers.WeatherForecastController",
+    "ActionId": "bf5f0cbc-f6d2-414d-928c-fee9e848c56d",
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "RequestId": "0HMFI7JPS2IHD:00000009",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7JPS2IHD",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 14500,
+    "ThreadId": 7
+  }
+} {
+  "Timestamp": "2022-02-17T22:43:20.0438049+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executed action method {ActionName}, returned result {ActionResult} in {ElapsedMilliseconds}ms.",
+  "Properties": {
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "ActionResult": "Microsoft.AspNetCore.Mvc.ObjectResult",
+    "ElapsedMilliseconds": 214.5213,
+    "EventId": {
+      "Id": 2,
+      "Name": "ActionMethodExecuted"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker",
+    "ActionId": "bf5f0cbc-f6d2-414d-928c-fee9e848c56d",
+    "RequestId": "0HMFI7JPS2IHD:00000009",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7JPS2IHD",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 14500,
+    "ThreadId": 7
+  }
+} {
+  "Timestamp": "2022-02-17T22:43:20.0622949+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executing {ObjectResultType}, writing value of type '{Type}'.",
+  "Properties": {
+    "ObjectResultType": "ObjectResult",
+    "Type": "System.Decimal",
+    "EventId": {
+      "Id": 1,
+      "Name": "ObjectResultExecuting"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor",
+    "ActionId": "bf5f0cbc-f6d2-414d-928c-fee9e848c56d",
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "RequestId": "0HMFI7JPS2IHD:00000009",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7JPS2IHD",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 14500,
+    "ThreadId": 7
+  }
+} {
+  "Timestamp": "2022-02-17T22:43:20.0849920+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executed action {ActionName} in {ElapsedMilliseconds}ms",
+  "Properties": {
+    "ActionName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "ElapsedMilliseconds": 525.9979,
+    "EventId": {
+      "Id": 2,
+      "Name": "ActionExecuted"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker",
+    "RequestId": "0HMFI7JPS2IHD:00000009",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7JPS2IHD",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 14500,
+    "ThreadId": 7
+  }
+} {
+  "Timestamp": "2022-02-17T22:43:20.0875953+05:00",
+  "Level": "Information",
+  "MessageTemplate": "Executed endpoint '{EndpointName}'",
+  "Properties": {
+    "EndpointName": "Logging_Serilog.Controllers.WeatherForecastController.Divide (Logging_Serilog)",
+    "EventId": {
+      "Id": 1,
+      "Name": "ExecutedEndpoint"
+    },
+    "SourceContext": "Microsoft.AspNetCore.Routing.EndpointMiddleware",
+    "RequestId": "0HMFI7JPS2IHD:00000009",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7JPS2IHD",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 14500,
+    "ThreadId": 7
+  }
+} {
+  "Timestamp": "2022-02-17T22:43:20.0899959+05:00",
+  "Level": "Information",
+  "MessageTemplate": "{HostingRequestFinishedLog:l}",
+  "Properties": {
+    "ElapsedMilliseconds": 614.0054,
+    "StatusCode": 200,
+    "ContentType": "application/json; charset=utf-8",
+    "ContentLength": null,
+    "Protocol": "HTTP/2",
+    "Method": "GET",
+    "Scheme": "https",
+    "Host": "localhost:7088",
+    "PathBase": "",
+    "Path": "/api/WeatherForecast/Divide",
+    "QueryString": "?a=55&b=0",
+    "HostingRequestFinishedLog": "Request finished HTTP/2 GET https://localhost:7088/api/WeatherForecast/Divide?a=55&b=0 - - - 200 - application/json;+charset=utf-8 614.0054ms",
+    "EventId": { "Id": 2 },
+    "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+    "RequestId": "0HMFI7JPS2IHD:00000009",
+    "RequestPath": "/api/WeatherForecast/Divide",
+    "ConnectionId": "0HMFI7JPS2IHD",
+    "MachineName": "DESKTOP-8VTLERK",
+    "ProcessId": 14500,
+    "ThreadId": 7
+  },
+  "Renderings": {
+    "HostingRequestFinishedLog": [
+      {
+        "Format": "l",
+        "Rendering": "Request finished HTTP/2 GET https://localhost:7088/api/WeatherForecast/Divide?a=55&b=0 - - - 200 - application/json;+charset=utf-8 614.0054ms"
+      }
+    ]
+  }
+}
